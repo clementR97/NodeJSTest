@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/clementR97/NodeJSTest/issues"
   },
-  "homepage": "https://github.com/clementR97/NodeJSTest#readme"
+  "homepage": "https://github.com/clementR97/NodeJSTest#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
