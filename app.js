@@ -8,7 +8,7 @@ mongoose.connect('mongodb+srv://clement:roland@cluster0.8vhrmze.mongodb.net/?ret
     {useNewUrlParser: true,
         useUnifiedTopology: true})
         .then(()=>console.log("connecter a la base de données mongo"))
-        .cath(()=>console.log("non connecter a la base de données mongo"));
+        .catch(()=>console.log("non connecter a la base de données mongo"));
 
     
 // accepter les connexion exterieur pour intérargir avec le serveur front-end
